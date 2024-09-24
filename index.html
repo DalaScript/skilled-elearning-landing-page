@@ -15,7 +15,10 @@
   <header>
     <div class="header">
       <a href="#" class="header__link">
-        <img class="header__img" width="79.29" height="20" src="./assets/images/logo-dark.svg" alt="logo">
+        <picture>
+          <source media="(min-width: 1440px)" width="111" height="28" srcset="./assets/images/logo-dark.svg">
+          <img class="header__img" width="79.29" height="20" src="./assets/images/logo-dark.svg" alt="logo">
+        </picture>
       </a>
       <button class="header__btn">Get Started</button>
     </div>
@@ -34,7 +37,9 @@
       </div>
       <div class="intro__img-wrapper">
         <picture>
-          <img class="intro__img" src="./assets/images/image-hero-mobile.png" alt="logo">
+          <source media="(min-width: 1440px)" srcset="./assets/images/image-hero-desktop@2x.webp">
+          <source media="(min-width: 768px)" srcset="./assets/images/image-hero-tablet@2x.webp">
+          <img class="intro__img" src="./assets/images/image-hero-mobile@2x.webp" alt="logo">
         </picture>
       </div>
     </section>
@@ -99,7 +104,10 @@
   <footer>
     <div class="footer">
       <a href="#" class="footer__link">
-        <img class="footer__img" width="79.29" height="20" src="./assets/images/logo-light.svg" alt="">
+        <picture>
+          <source media="(min-width: 1440px)" width="111" height="28" srcset="./assets/images/logo-light.svg">
+          <img class="footer__img" width="79.29" height="20" src="./assets/images/logo-light.svg" alt="">
+        </picture>
       </a>
       <button class="footer__btn">Get Started</button>
     </div>

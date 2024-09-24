@@ -79,6 +79,7 @@ $gradient-purple: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
 html,
 body {
     background-color: $white;
+    overflow-x: hidden;
 }
 
 picture {
@@ -93,6 +94,7 @@ a {
  ******************************/
 header {
     padding: 16px 20px;
+
 }
 
 .header {
@@ -112,10 +114,6 @@ header {
     }
 }
 
-main {
-    overflow: hidden;
-}
-
 .intro {
     padding: 64px 20px;
     display: flex;
@@ -124,6 +122,7 @@ main {
 
     &__inner {
         margin-bottom: 48px;
+        max-width: 335px;
     }
 
     &__title {
@@ -280,5 +279,184 @@ footer {
 
         @include body-7;
         color: $white;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        padding: 24px 44px;
+    }
+
+    .header {
+        &__btn {
+            padding: 10.5px 24px;
+        }
+    }
+
+    .intro {
+        padding: 64px 44px;
+        min-width: 680px;
+
+        flex-direction: row;
+        justify-content: space-between;
+
+        &__img-wrapper {
+            max-width: 328px;
+            height: 400px;
+        }
+
+        &__inner {
+            margin-bottom: 0;
+            max-width: 328px;
+        }
+
+        &__img-wrapper {
+            margin: 0;
+        }
+
+        &__img {
+            scale: 2.15;
+            left: 153px;
+            top: -52px;
+        }
+    }
+
+    .content {
+        padding-bottom: 144px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 24px;
+
+        
+
+        &__title-box {
+            margin-top: 28px;
+            padding: 64px 32px 0;
+            width: 328px;
+            height: 322px;
+        }
+
+        &__card {
+            width: 328px;
+
+            &:not(:nth-child(2)) {
+                margin-top: 8px;
+            }
+
+            &-caption {
+                height: 118px;
+                @include body-5;
+            }
+
+
+        }
+    }
+
+    footer {
+        padding: 24px 44px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    header {
+        padding: 24px 110px;
+    }
+
+    .intro {
+        padding: 64px 125px;
+    }
+
+    .content {
+        padding: 64px 110px 80px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    header {
+        padding: 24px 160px;
+    }
+
+    .header {
+        &__btn {
+            padding: 16px 32px;
+        }
+    }
+
+    .intro {
+        padding: 64px 160px;
+        justify-content: space-between;
+
+
+        &__title {
+            @include heading-1;
+        }
+
+        &__inner {
+            padding-right: 87px;
+            max-width: 544px;
+        }
+
+        &__img-wrapper {
+            width: 100%;
+            max-width: 544px;
+            height: 560px;
+        }
+
+        &__img {
+            scale: 1.94;
+            top: -89px;
+            left: 246px;
+        }
+    }
+
+    .content {
+        padding-bottom: 144px;
+        gap: 32px;
+
+        &__title-box {
+            max-width: 352px;
+            width: 100%;
+        }
+
+        &__title {
+            font-size: 32px;
+            line-height: 120%;
+        }
+
+        &__card {
+            max-width: 352px;
+            width: 100%;
+
+            &:not(:nth-child(2), :nth-child(3)) {
+                margin-top: 24px;
+            }
+
+            &:nth-child(3) {
+                margin-top: 0;
+            }
+
+            &-title {
+                /* desktop/text-preset-4 */
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 29px;
+            }
+
+            &-caption {
+                height: 113px;
+            }
+        }
+    }
+
+    footer {
+        padding: 24px 160px;
+    }
+
+    .footer {
+        &__btn {
+            padding: 16px 32px;
+            line-height: 27px;
+        }
     }
 }
