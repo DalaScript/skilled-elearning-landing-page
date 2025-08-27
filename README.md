@@ -1,77 +1,77 @@
-# Frontend Mentor - Skilled e-learning landing page solution
+# Skilled E-Learning Landing Page | Frontend Mentor
 
 This is a solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+---
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-  - [Connect with Me](#Connect-with-Me)
-  - [Coding Profiles](#Coding-Profiles)
+## 📚 Table of contents
 
-## Overview
+- [🔎 Overview](#-overview)
+  - [🎯 The challenge](#-the-challenge)
+  - [📸 Screenshot](#-screenshot)
+  - [🔗 Links](#-links)
+  - [🛠️ Built with](#️-built-with)
+- [🧠 My process](#-my-process)
+  - [🔙 Previous Challenge](#-previous-challenge)
+  - [🔜 Next Challenge](#-next-challenge)
+- [👤 About Me](#-about-me)
+  - [🌐 Connect with Me](#-connect-with-me)
+  - [💻 Coding Profiles](#-coding-profiles)
 
-### The challenge
+---
+
+## 🔎 Overview
+
+### 🎯 The challenge
 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### 📸 Screenshot
 
-![](./assets/images/screenshot/screenshot.jpg)
+![Live Preview Screenshot](./assets/images/screenshot/screenshot.jpg)
 
-### Links
+### 🔗 Links
 
-- [Solution URL](https://github.com/DalaScript/skilled-elearning-landing-page)
-- [Live Site URL](https://DalaScript.github.io/skilled-elearning-landing-page/)
+  - [🔴 Live Demo](https://dalascript.github.io/skilled-elearning-landing-page/)
+  - [🗂️ GitHub Repository](https://github.com/DalaScript/skilled-elearning-landing-page)
 
-## My process
+### 🛠️ Built with
 
-### Built with
+  - HTML5
+  - CSS3
+  - Flexbox
+  - Mobile-first workflow
+  - bem - [Block Element Modifier](https://getbem.com/introduction/)
+  - scss - [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/)
 
+---
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-- bem - [Block Element Modifier](https://getbem.com/introduction/)
-- scss - [Sassy Cascading Style Sheets](https://sass-lang.com/documentation/at-rules/control/for/)
+## 🧠 My process
 
-### What I learned
+### 🔙 Previous Challenge
 
-Nothing special, but there was a lot of work with images and position absolute. It was a really good experience.
+  - Password Generator App | *Challenge 17* → [View Repository](https://github.com/DalaScript/password-generator-app)
 
-### Continued development
+### 🔜 Next Challenge
 
-I have already completed two JavaScript courses on freeCodeCamp, and I am currently taking the Front End Development Libraries course, where I’ve finished Bootstrap, jQuery, and Sass, and I’m now working through React.
+  - Interactive Rating Component | *Challenge 19* → [View Repository](https://github.com/DalaScript/interactive-rating-component)
 
-Alongside this, I am working on projects and following a learning path on Frontendmentor.
+---
 
-### Useful resources
+## 👤 About Me
 
-- [ChatGPT](https://chatgpt.com/) - He is my hero, if I need something fast, if I can't understand something, or if I can't find it on the internet, I always ask him.
-- [W3Schools](https://www.w3schools.com/) - This is my favorite documentation platform I've been using since I started programming, it's the best explained resource.
-- [YouTube](https://www.youtube.com/) - I'm always looking for news and listening to other developers, sharing their experiences so that I can see many different solutions to a problem.
+### 🌐 Connect with Me
 
-## Author
+  - [Instagram](https://www.instagram.com/DalaScript)
+  - [YouTube](https://www.youtube.com/@DalaScript)
 
-### Connect with Me
+### 💻 Coding Profiles
 
-- [Instagram](https://www.instagram.com/DalaScript)
-- [YouTube](https://www.youtube.com/@DalaScript)
+  - [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
+  - [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
+  - [GitHub](https://github.com/DalaScript)
 
-### Coding Profiles
-
-- [freeCodeCamp](https://www.freecodecamp.org/DalaScript)
-- [FrontendMentor](https://www.frontendmentor.io/profile/DalaScript)
-- [GitHub](https://github.com/DalaScript)
+*🙌 Thanks for checking out my project! More coming soon. Stay tuned 🚀*
